@@ -1,4 +1,4 @@
-#projects {
+#projects, #education {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -18,14 +18,16 @@
     border-radius: 5px;
   }
   h5 {
-    margin: 0;
+    margin: 0;  
   }
   li {
     color: $main;
     font-size: 1.1rem;
+    
   }
   p {
     margin-right: 5px;
+    
   }
 }
 
@@ -33,6 +35,7 @@
   @media only screen and (min-width: $cut) {
     margin-left: 0;
     width: 48%;
+    display: inline-block;
   }
 }
 
